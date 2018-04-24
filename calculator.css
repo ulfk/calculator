@@ -1,0 +1,113 @@
+/* Calculator Styles */
+
+body {
+   font-family: "Open Sans";
+   margin-left: 80px;
+   margin-top: 50px;
+}
+div.display {
+   text-align: right;
+   border: 1px inset #aaaaaa;
+   border-radius: 3px;
+   padding: 5px;
+   overflow: hidden;
+   width: 210px;
+   font-size: 160%;
+   margin-bottom: 15px;
+   margin-top: 15px;
+}
+div.button {
+   text-align: center;
+   border-radius: 3px;
+   border: 1px outset lightgray;
+   padding: 4px;
+   cursor: pointer;
+   font-size: 120%;
+}
+div.pressed {
+   border: 1px inset lightgray !important;
+   padding: 3px 5px 5px 3px !important;
+}
+table {
+   padding: 15px;
+   border-radius: 7px;
+   border: 3px outset lightgray;
+}
+td {
+   width: 45px;
+   padding: 4px;
+}
+div.selection {
+   margin-top: 20px;
+   margin-left: 40px;
+   font-size: 90%;
+}
+div#calculator {
+   display: inline-block;
+   padding: 20px;
+   border-radius: 3px;
+}
+div.headline {
+   font-size: 1.17em;
+   font-weight: bold;
+   margin-bottom: 20px;
+   text-align: center;
+   padding-right: 8px;
+}
+#memselector {
+   width: 100px;
+}
+
+/* Theme 1 */
+body.theme_one {
+   background-color: #e0e0f0;
+}
+body.theme_one table {
+   background-color: #f0f0f0;
+}
+body.theme_one div.display {
+   background-color: #FFFFFF;
+}
+body.theme_one div.button {
+   background-color: #E0E0E0;
+}
+body.theme_one div.highlighted {
+   background-color: #D0D0D0;
+}
+body.theme_one div.pressed {
+   background-color: #bbbbbb !important;
+}
+body.theme_one #colorselector {
+   background-color:  #f0f0f0;
+}
+body.theme_one div#calculator {
+   background-color: #f8f8f8;
+   border: 3px solid #c8c8c8;
+}
+
+/* Theme 2 */
+body.theme_two {
+   background-color: #948B6C;/*#EDE9DA*/
+}
+body.theme_two table {
+   background-color: #E0D9C1;
+}
+body.theme_two div.display {
+   background-color: #F0F0F0;
+}
+body.theme_two div.button {
+   background-color: #D6CBA9;
+}
+body.theme_two div.highlighted {
+   background-color: #C4BEAB;
+}
+body.theme_two div.pressed {
+   background-color: #A6A08D !important;
+}
+body.theme_two #colorselector {
+   background-color: #E0D9C1;
+}
+body.theme_two div#calculator {
+   background-color: #F0EcDd;
+   border: 3px solid #aaa;
+}
