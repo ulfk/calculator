@@ -1,7 +1,7 @@
 /* Calculator Styles */
 
 body {
-   font-family: "Open Sans";
+   font-family: "Open Sans", sans-serif;
    margin-left: 80px;
    margin-top: 50px;
 }
