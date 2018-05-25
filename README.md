@@ -7,3 +7,6 @@ Implemented these features:
 - switch color style
 - store and recall values
 - use num-pad keys for calculation
+
+# Live Demo
+Test the calculator here: https://ulfk.github.io/calculator/calculator.html
